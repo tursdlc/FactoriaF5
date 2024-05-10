@@ -1,0 +1,227 @@
+body{
+    font-family: "Inter", sans-serif;
+    margin:0;
+}
+#page-container{
+    position: relative;
+    min-height: 100vh;
+}
+header{
+    height:25%;
+}
+.menu{
+    border-bottom: 1px inset rgb(240, 237, 237); 
+    display:flex;
+    flex-direction: row;
+    justify-content: space-between; 
+}
+.navegador{
+    display:flex;
+    flex-direction: row;
+    gap: 20px;
+    align-items: center;
+    font-size: 12px;
+    color: #57626b;
+    font-weight: bold;
+}
+.iconos{
+    display:flex;
+    flex-direction: row;
+    margin-right:16px;
+    gap: 20px;
+}
+.google{
+    width: 26px;
+    height: 26px;
+    margin-right:8px; 
+    margin-left: 20px;
+}
+a{text-decoration: none;
+   color:#1A73E8 
+
+}
+main{
+    max-width: 1155px;
+    width:100%;
+    height: 50%;
+    margin-right: auto;
+    margin-left: auto;
+    padding: 0px 8px;
+}
+#content-wrap{
+    padding-bottom: 2.5rem;
+}
+.flecha{
+    margin-left:20px;
+    color: #353a49;
+    font-size: 12px;
+}
+.fotoflecha{
+    margin-right:10px;
+}
+.principal{
+    
+    display:flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.fotogrande{
+    width: 700px;
+    height:500px;
+    background-color:  #F8F9FA;
+    text-align: center;
+    align-content: center;
+    margin-bottom: 20px;
+    border-radius: 10px;
+}
+.earbudsmain{
+    width: 400px;    
+}
+.texto{
+    width: 500px;
+    height:750px;
+    display: flex;
+    flex-direction: column;
+    color: #353A49;
+}
+.descripcion{
+    font-size: 35px;
+    font-weight: bold;
+
+}
+.descricion2{
+    font-size: 12px;
+    font-weight: regular;
+}
+.precio{
+    font-weight: bold;
+}
+hr{
+    margin-top:30px;
+    margin-bottom:20px;
+}
+.cuadrado{
+    display: flex;
+    flex-direction: row;
+    margin:0;
+    gap: 10px;
+
+}
+.cuadrado1{
+    width: 110px;
+    height: 100px;
+    border: 1px solid #353A49;
+    border-radius: 6px
+}
+.cuadrado1 img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+    
+}
+.cuadrado2{
+    width: 110px;
+    height: 100px;
+    border: 1px solid #353A49;
+    border-radius: 6px
+}
+.cuadrado2 img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+.cuadrado3{
+    width: 110px;
+    height: 100px;
+    border: 1px solid #353A49;
+    border-radius: 6px
+}
+.cuadrado3 img{
+    width: 60%;
+    height: 60%;
+    object-fit: cover;
+}
+.preciocarrito{
+    margin-left:16px;
+    margin-top: 30px;
+    font-size: 20px;
+}
+.linea{
+    width:370px;
+    margin-left:16px;
+}
+.seleccionar{
+    width: 70px;
+    height: 50px;
+    border-radius: 6px;
+    padding: 6px;
+    margin-left: 16px;
+    margin-right: 10px;
+}
+.añadir{
+    width: 290px;
+    height: 50px;
+    border-radius: 6px;
+    border-style: none;
+    background-color: #1A73E8 ;
+    color: white;
+    font-weight: bold;
+    font-size: 14px;
+}
+.delivery{
+    margin-left:8px;
+    margin-top: 40px;
+    font-weight: bold;
+    color:#57626b;
+}
+.camion{
+    margin-right: 10px;
+}
+span{
+    color:#1A73E8;
+}
+footer{
+    height: 2.5rem;
+    width: 100%;
+    background-color: #F8F9FA;
+    margin-top:20px;
+    display:flex;
+    flex-direction: row;  
+    justify-content: space-between; 
+    align-items: center;
+    position:absolute;
+    bottom: 0;
+}
+
+.logos{
+    display:flex;
+    flex-direction: row;
+    margin-left:100px;
+    gap: 10px;
+    width:20px;
+    height:20px;
+    
+}
+.bandera{
+    display:flex;
+    flex-direction: row;
+    width:20px;
+    height:20px;
+    margin-right: 40px;
+    gap: 5px;
+    align-content: center;
+    
+}
+.imgbandera{
+    width:30px;
+    height:30px;
+}
+.condiciones{
+    font-size: 8px;
+    display:flex;
+    flex-direction: row;
+    gap: 40px;
+    margin-right:100px;
+    color: #353a49;
+}
